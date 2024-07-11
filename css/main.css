@@ -22,7 +22,7 @@ body {
     height: 200px;
     border: 1px solid red;
     margin: 10px;
-    object-fit: contain;
+    border-image: url(../image/CGV.png);
 }
 .t2{
     position:static;
