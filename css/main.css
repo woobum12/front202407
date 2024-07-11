@@ -22,7 +22,7 @@ body {
     height: 200px;
     border: 1px solid red;
     margin: 10px;
-    border-image: url(../image/CGV.png);
+    
 }
 .t2{
     position:static;
@@ -81,5 +81,5 @@ body {
 .footer {
     background-color: antiquewhite;
     padding: 10px;
-    
+    position: fixed;  
 }
