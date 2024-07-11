@@ -19,13 +19,13 @@ body {
 .t1{
     position: static;
     width: 22.2%;
-    height: 200px;
+    height: 10%;
     border: 1px solid red;
     margin: 10px;
     
 }
 .t2{
-    position:static;
+    position:relative;
     width: 55.5%;
     border: 1px solid red;
     margin: 10px;
@@ -33,7 +33,6 @@ body {
 .t3{
     position:static;
     width: 22.2%;
-
     border: 1px solid red;
     margin: 10px;
 }
@@ -51,7 +50,7 @@ body {
     text-decoration: none;
 }
 .content{
-    display: block;
+    display: grid;
     background-color: azure;
     padding: 10px;
     height: 200px;
@@ -64,8 +63,6 @@ body {
 }
 .m2{
     position: relative;
-    height:100%;
-    width:100%;
     border: 1px solid red;
 }
 .m3{
@@ -81,5 +78,4 @@ body {
 .footer {
     background-color: antiquewhite;
     padding: 10px;
-    position: fixed;  
 }
