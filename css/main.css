@@ -1,13 +1,14 @@
 *{
+    /* 요소의크기를 box크기로 정하는것 */
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    /* 가운데 정렬 */
+    margin: 0 auto;
+    
 }
 
 body {
-    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
-    
 }
 .top{
     background-color: white;
@@ -17,24 +18,40 @@ body {
 
 
 .t1{
-    position: static;
-    width: 22.2%;
-    height: 10%;
-    border: 1px solid red;
+    position: block;
+    width: 33.3%;
+    height: 100%;
     margin: 10px;
-    
+    border: 1px solid red;
+    margin-top: 105px;
+    flex : 1;
 }
+
 .t2{
-    position:relative;
-    width: 55.5%;
+    position:block;
+    width: 44.4%;
+    height: 100%;
     border: 1px solid red;
     margin: 10px;
+    flex : 3;
 }
+
 .t3{
-    position:static;
-    width: 22.2%;
+    position:relative;
+    width: 44.4%;
     border: 1px solid red;
     margin: 10px;
+    flex: 1;
+
+}
+.grid{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;    
+}
+.t3>.movie3{
+    position: absolute;
 }
 /* 메뉴 */
 .topnav{
@@ -53,7 +70,8 @@ body {
     display: grid;
     background-color: azure;
     padding: 10px;
-    height: 200px;
+    height: 100%;
+    width: 100%;
 }
 .m1{
     position: relative;
@@ -64,6 +82,7 @@ body {
 .m2{
     position: relative;
     border: 1px solid red;
+    float: left;
 }
 .m3{
     height: 100%;
@@ -78,4 +97,21 @@ body {
 .footer {
     background-color: antiquewhite;
     padding: 10px;
+}
+.w{
+    display: flex;
+    height: 0; width: 0;
+    float: left;
+}
+.w1 {
+    margin-right: 15%;
+}
+.w2{
+    margin-right: 15%;
+}
+.w3{
+    margin-right: 15%;
+}
+.w4{
+    margin-right: 15%;
 }
