@@ -88,7 +88,7 @@ body {
     position:static;
     border: 1px solid red;
     float: left;
-    width: 80%;
+    width: 100%;
 }
 .m3{
     position: static;
@@ -109,17 +109,20 @@ body {
     display: block;
     float: left;
     border: 2px solid red;
-    padding: 10px;
     margin: 20px;
     height: 234px;
     width: 170px;
 }
-.wee2 > .wee_sub2{
+.wee3 > .wee_sub2{
     display: block;
     float: left;
     border: 2px solid red;
-    padding: 10px;
     margin: 20px;
     height: 234px;
     width: 170px;
+}
+.wee_text {
+    border: 1px solid rgb(228, 112, 112);
+    position: relative;
+    top: 0;
 }
