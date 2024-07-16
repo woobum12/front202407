@@ -8,10 +8,10 @@ body {
 }
 .header {
     background-color: aquamarine;
-    padding: 20px;
+    padding: 10px;
     border: 1px solid red;
     text-align: center;
-    margin: 0px 250px;
+    margin: 0;
 }
 .top_container{
     display: flex;
@@ -19,17 +19,18 @@ body {
     border: 1px solid red;
     width: 100%;
     height: auto;
+    flex-wrap: nowrap;
 }
-.top1 .logo {
-    flex:22%;
-
+div.top1{
+    height: 100%;
+    width: auto;
+    position: static;
 }
-.top2{
-    flex:66%;
+div.top2 {
+    margin: 10px;
+}
+div.menu{
     position: relative;
-    left: 0;
-    top : 0;
-}
-.top3{
-    flex:22%;
+    list-style: none;
+    flex:1;
 }
