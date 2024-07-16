@@ -9,14 +9,12 @@ body {
 .header {
     background-color: aquamarine;
     padding: 10px;
-    border: 1px solid red;
     text-align: center;
     margin: 0;
 }
 .top_container{
     display: flex;
     text-align: center;
-    border: 1px solid red;
     width: 100%;
     height: auto;
     flex-wrap: nowrap;
@@ -27,10 +25,62 @@ div.top1{
     position: static;
 }
 div.top2 {
-    margin: 10px;
+    margin: 0;
 }
 div.menu{
     position: relative;
-    list-style: none;
     flex:1;
+}
+.list{
+    list-style-type: none;
+}
+.nav {
+    overflow: hidden;
+    background-color: black;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.content1 {
+    display:flex;
+    border: 1px solid red;
+    background-color: black;
+    height: 498px;
+    z-index: -1;
+    justify-content: center;
+    align-items: center;
+}
+.section1{
+    display: flex;
+    background-color: white;
+    width: 980px;
+    height: 498px;
+    z-index: 2;
+    position: relative;
+}
+.section1 > .p1 {
+    position: absolute;
+    left: 0;
+    z-index: 2;
+    color: white;
+    top: 170px;
+    font-size: 40px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgb(0, 0, 0, 0.72);
+    pointer-events: none;
+}
+.section1 > .p2 {
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    color: white;
+    top:239px;
+    max-width: 100%;
+    font-size: 20px;
+    pointer-events: none;
 }
