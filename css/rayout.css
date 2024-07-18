@@ -85,6 +85,12 @@ body {
     font-size: 20px;
     pointer-events: none;
 }
+.movieChart {
+    clear: none;
+    float: none;
+    overflow: hidden;
+    position: relative;
+}
 .content2 {
     width: 980px;
     height: 100%;
@@ -119,4 +125,14 @@ body {
     z-index: 1;
     display: flex;
     box-sizing: content-box;
+}
+.cta{
+    background-color: black ;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: absolute;
+    right: 6px;
+    top: 7px;
+    z-index: 4;
 }
