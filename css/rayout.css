@@ -128,7 +128,6 @@ body {
 }
 .cta{
     background-color: black ;
-    display: flex;
     flex-direction: column;
     gap: 5px;
     position: absolute;
